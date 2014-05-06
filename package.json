@@ -1,0 +1,22 @@
+{
+  "name": "datafill",
+  "main": "./lib/datafill-cli.js",
+  "version": "0.0.1",
+  "description": "Inputs data into HTML elements, server or client side",
+  "repository": "https://github.com/ardcore/datafill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ardcore/datafill/issues",
+    "email": "szymon.pilkowski@gmail.com"
+  },
+  "author": {
+    "name": "Szymon Pilkowski",
+    "email": "szymon.pilkowski@gmail.com",
+    "url": "http://twitter.com/ard"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "jsdom": "~0.10.5",
+    "nomnom": "~1.6.2"
+  }
+}
