@@ -8,15 +8,18 @@ Simple data filler with client and server-side versions and custom adapters.
 
     node datafill-cli <input> <output> [options]
 
+    Usage: datafill-cli <input> [output] [options]
+
     input      Input file to parse
     output     Output file to write
 
     Options:
        -u, --url        URL to pull data from
-       -p, --parser     Data parser  [parsers/simple.js]
+       -a, --adapter    API adapter  [adapters/simple.js]
        -l, --language   Language of data to fill
+       -p, --pull       Pull data from input file
 
-    (installation: `npm install`)
+  (installation: `npm install`)
 
 ## Client-side:
 
