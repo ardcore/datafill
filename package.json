@@ -1,7 +1,7 @@
 {
   "name": "datafill",
   "main": "./lib/datafill-cli.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Inputs data into HTML elements, server or client side",
   "repository": "https://github.com/ardcore/datafill",
   "license": "MIT",

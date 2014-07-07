@@ -4,11 +4,11 @@ Simple data filler with client and server-side versions and custom adapters.
 
 # Usage:
 
-## Server-side:
+## Command line:
 
-    node datafill-cli <input> <output> [options]
+    node datafill <input> <output> [options]
 
-    Usage: datafill-cli <input> [output] [options]
+    Usage: datafill <input> [output] [options]
 
     input      Input file to parse
     output     Output file to write
@@ -21,9 +21,20 @@ Simple data filler with client and server-side versions and custom adapters.
 
   (installation: `npm install`)
 
+## As module:
+
+    var df = require('./datafill');
+    df.execute({
+      input: "../example/index.html",
+      pull: true,
+      adapter: "adapters/simple.js"
+    }, function(output) {
+      console.log(output)
+    })
+
 ## Client-side:
 
-    <script type="text/javascript" src="../lib/datafill.js" /></script>
+    <script type="text/javascript" src="../lib/datafill-client.js" /></script>
     <script type="text/javascript" src="../lib/parsers/simple.js" /></script>
 
     <script type="text/javascript">
